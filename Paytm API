@@ -1,7 +1,7 @@
-id: VuIWtKGH6U6gcXpG2bsoNA
+id: 3hbmlxW3yk69z4zphyJFCA
 projectId: GbRHAUn9nUaTbnTV_8V10Q
 projectName: Paytm API
-created: 2021-09-23T11:43:58.1520543Z
+created: 2021-09-23T11:46:35.3667251Z
 protocol: 1
 tests:
 - id: uE5c8kgUEUOTz76-ymd7lg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-23T11:37:13.0000000
-  modificationDate: 2021-09-23T11:43:53.0000000
+  modificationDate: 2021-09-23T11:46:03.0000000
   settings:
     automationAssistant: true
     appId: 9WmRWosP90G45SHZIcYcwA
@@ -608,51 +608,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: ''
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 6gD4l5sS2EmRiJ7yc-XMmA
-    enabled: true
-    invertResult: false
-    order: 28
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6cc71ddb-1aaf-433c-aa94-56d944aac433
-      source: System
-    parameterMaps:
-    - name: index
-      value: 1
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: zxIPRhHqIUWHUzm0pld9IA
-    enabled: true
-    invertResult: false
-    order: 29
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
-      source: System
-    parameterMaps:
-    - name: index
-      value: 0
+      value: '{{UserQuery}}'
       direction: Input
     conditions: []
     validations: []
