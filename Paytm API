@@ -1,0 +1,61 @@
+id: r8c0oHiWI06gWQFoRru9yw
+projectId: GbRHAUn9nUaTbnTV_8V10Q
+projectName: Paytm API
+created: 2021-09-23T11:37:12.8688786Z
+protocol: 1
+tests:
+- id: uE5c8kgUEUOTz76-ymd7lg
+  name: Paytm API
+  description: To test api of paytm website
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-09-23T11:37:13.0000000
+  modificationDate: 2021-09-23T11:37:13.0000000
+  settings:
+    automationAssistant: true
+    appId: 9WmRWosP90G45SHZIcYcwA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: 9WmRWosP90G45SHZIcYcwA
+    name: Paytm API Test
+    url: https://paytm.com
+    platform: Web
+  steps:
+  - id: 2KRhWjPoTEWfw5I3-ZDrTQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://paytm.com
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
