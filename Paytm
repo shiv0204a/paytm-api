@@ -1,18 +1,18 @@
-id: CD2FUQ2U4U6lJJmZZaPk-Q
+id: SsJZol0mzUykPzPhyrWZeg
 projectId: GbRHAUn9nUaTbnTV_8V10Q
 projectName: Paytm API
-created: 2021-09-17T18:56:46.6181360Z
+created: 2021-09-23T11:35:28.4678058Z
 protocol: 1
 tests:
 - id: mGuwgvqicE2eMxOW9F0lWA
   name: Paytm
-  description: test search api of paytm
+  description: test search api of paytm website
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-17T17:55:01.0000000
-  modificationDate: 2021-09-17T18:10:13.0000000
+  modificationDate: 2021-09-23T11:35:28.0000000
   settings:
     automationAssistant: true
     appId: NgHJd57K60eAGZmFwTHRyQ
